@@ -1,0 +1,10 @@
+# use glob syntax.
+syntax: glob
+
+*/bin/*
+*/gen/*
+
+releases/*
+
+# Java generated files (from manual compilation)
+*.class
